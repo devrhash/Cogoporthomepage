@@ -1,0 +1,86 @@
+.BlogInfo {
+  box-sizing: border-box;
+  width: calc(calc(100% / 3) - 20px);
+  margin-right: 10px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-align: start;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px hsla(0, 0%, 79%, 0.5);
+}
+
+.BlogInfo img {
+  text-align: start;
+  aspect-ratio: auto 376 / 200;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-color: #fbdc00;
+  object-fit: cover;
+  color: transparent;
+}
+
+.BlogInfo .bottom {
+  text-align: start;
+  color: #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 16px;
+}
+
+.BlogInfo .bottom .title {
+  text-align: start;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ee3425;
+}
+
+.BlogInfo .bottom .body {
+  text-align: start;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+.BlogInfo .bottom p {
+  --font-family: "PT Sans", sans-serif;
+
+  font-family: var(--font-family);
+  text-align: start;
+  color: #000;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 16px;
+  max-height: calc(1.4rem * 3.2);
+  overflow: hidden;
+}
+
+.BlogInfo .bottom .readMore {
+  text-align: start;
+  color: #000;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BlogInfo .bottom .show {
+  font-size: 14px;
+  text-align: start;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #ee3425;
+  cursor: pointer;
+}

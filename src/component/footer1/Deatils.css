@@ -1,0 +1,57 @@
+.Deatils {
+  box-sizing: border-box;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Deatils span {
+  color: #434343;
+  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+
+.Deatils .list {
+  font-size: 14px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.Deatils head {
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 0;
+}
+.Deatils p {
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 8px;
+  color: #434343;
+}
+
+.Deatils .card {
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.Deatils h4 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,80 @@
+.howItWorks .card {
+  box-sizing: border-box;
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169, 188, 218, 0.65);
+  margin-bottom: 120px;
+}
+.howItWorks .card .top {
+  font-family: "PT Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ee3425;
+}
+.howItWorks .card .mid {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0 0 10px;
+  margin: 0;
+  list-style-position: outside;
+}
+.howItWorks .card .mid p {
+  list-style-position: outside;
+  box-sizing: border-box;
+  padding-left: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.howItWorks .card .bottom {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #434343;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+}
+.howItWorks .card .dot {
+  --color-primary: #ee3425;
+  --color-primary-1: #ee3425;
+  --color-primary-2: #ee3425;
+  --color-secondary: #fbdc00;
+  --color-secondary-1: #ebbe00;
+  --color-secondary-5: #fff;
+  --font-color: #434343;
+  --font-color-heading: #000;
+  --font-color-link: var(--color-primary);
+  --font-family: "PT Sans", sans-serif;
+  --font-family-heading: "Ubuntu", sans-serif;
+  --font-size-xl: 18px;
+  --font-size-lg: 16px;
+  --font-size-md: 14px;
+  --font-size-sm: 12px;
+  --font-size-xs: 10px;
+  --line-height: 1.5;
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: var(--line-height);
+  color: var(--font-color);
+  -webkit-font-smoothing: antialiased;
+  --layout-topbar: 56px;
+  --layout-startbar: 200px;
+  box-sizing: border-box;
+}
+.howItWorks .card .bottom p {
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.5;
+  color: #434343;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  margin: 0;
+}
